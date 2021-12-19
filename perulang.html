@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perulangan di JS</title>
+</head>
+<body>
+    <script>
+        // document.write("<h3>Belajar Perulangan JavaScript");
+        // document.write("<h3>Belajar Perulangan JavaScript");
+        // document.write("<h3>Belajar Perulangan JavaScript");
+        // document.write("<h3>Belajar Perulangan JavaScript");
+        // document.write("<h3>Belajar Perulangan JavaScript");
+        // Perulangan di JS ada 2 yakni counted loop dan uncounted loop. counted loop 
+        // contohnya menggunakan for, unconted loop menggunanakan while.
+        // kategori counted loo ada 3 yaitu FOR, FOREACH, REPEAT
+        // kategori UNCOUNTEDLOOP ADA 2 YAITU DO/WHILE, WHILE
+
+        // document.write("<h3>Perulangan For</h3>")
+        // for (let i=0; i<=20; i++){ //increment
+        //     document.write("<h4>Perulangan ke-" + i+"</h4>");
+        // }
+
+        // document.write("<h3>Perulangan For</h3>")
+        // for (let i = 15; i>0; i--){ //decrement
+        //     document.write("<h4>Perulangan ke-" + i+"</h4>");
+        // }
+
+        // document.write("<h3>Perulangan dengan WHILE</h3>");
+        // var ulang = confirm('apakah andah ingin mengulang');
+        // var counter = 0;
+        // while (ulang) {
+        //     var jawab = confirm("Apakah anda ingin mengulang");
+        //     counter++;
+        //     if (jawab == false) {
+        //         ulang = false;
+        //     }
+        // }
+        // document.write("Perulangan dilakukan sebanyak" +counter+ "kali");
+
+        document.write("<h3> Perulangan dengan DO While </h3>");
+        var ulang = confirm("Apakah Anda ingin mengulang");
+        var counter = 0;
+
+        do {
+          counter++;
+          ulang = confirm("Apakah anda ingin mengulang ");
+        } while (ulang);
+
+        document.write(
+          "Perulangan sudah dilakukan sebanyak " + counter + " kali"
+        );
+
+
+      //   document.write("<h3>Perulangan Foreach</h3>");
+      //   var bahasa = ["Indonesia", "Inggris", "Itali", "Jerman"];
+
+      //   //   for (i = 0; i < bahasa.length; i++) {
+      //   //     document.write(i + ". " + bahasa[i] + "<br/>");
+      //   //   }
+      //   //   for (i in bahasa) {
+      //   //     document.write(i + ". " + bahasa[i] + "<br/>");
+      //   //   }
+
+      //   bahasa.forEach(function (bahasa) {
+      //     document.write("<h3>" + bahasa + "</h3>");
+      //   });
+
+
+        // document.write("Perulangan dengan Repeat ");
+        // for(var i=0;i<10;i++){
+        //     document.write("Copykan kalimat ini <br/>");
+        // }
+
+        // document.write("Perulangan dengan Repeat <br/>");
+        //     document.write("Copykan kalimat ini <br/>". repeat(20));
+
+
+
+    </script>
+</body>
+</html>
